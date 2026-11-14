@@ -13,8 +13,6 @@
 
 ## Установка
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
-
 ```bash
 git clone https://github.com/brightestblood/java-project-61.git
 cd java-project-61
@@ -22,7 +20,7 @@ cd java-project-61
 
 ## Использование
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+https://asciinema.org/a/0mvJNpMF0xKRcjw6
 
 ---
 
