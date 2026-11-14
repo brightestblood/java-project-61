@@ -1,6 +1,7 @@
 plugins {
     id("java")
     id("io.github.ben-manes.versions") version "0.57.0"
+    id("com.diffplug.spotless") version "8.6.0"
     application
 }
 
@@ -27,4 +28,14 @@ application {
 
 tasks.getByName("run", JavaExec::class) {
     standardInput = System.`in`
+}
+
+spotless {
+    java {
+        importOrder()
+        removeUnusedImports()
+        googleJavaFormat().aosp()
+        formatAnnotations()
+        leadingTabsToSpaces(4)
+    }
 }
