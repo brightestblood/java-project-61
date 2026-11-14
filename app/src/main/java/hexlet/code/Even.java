@@ -18,7 +18,7 @@ public class Even {
         System.out.println("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
         for (int i = 0; i < ROUNDS_COUNT; i++) {
-            int number = random.nextInt(MAX_NUMBER) + 1;   // 1..100
+            int number = random.nextInt(MAX_NUMBER) + 1; // 1..100
             String correctAnswer = isEven(number) ? "yes" : "no";
 
             System.out.println("Question: " + number);
@@ -26,7 +26,12 @@ public class Even {
             String userAnswer = scanner.nextLine();
 
             if (!userAnswer.equals(correctAnswer)) {
-                System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '" + correctAnswer + "'.");
+                System.out.println(
+                        "'"
+                                + userAnswer
+                                + "' is wrong answer ;(. Correct answer was '"
+                                + correctAnswer
+                                + "'.");
                 System.out.println("Let's try again, " + name + "!");
                 return;
             }

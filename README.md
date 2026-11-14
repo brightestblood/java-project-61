@@ -16,6 +16,7 @@
 ```bash
 git clone https://github.com/brightestblood/java-project-61.git
 cd java-project-61
+make run-dist
 ```
 
 ## Использование
