@@ -21,7 +21,20 @@ make run-dist
 
 ## Использование
 
-https://asciinema.org/a/Qhh6cRcUvIw082Hs
+Greet:
+https://asciinema.org/a/thqIZZbhAJt5apar
+Even:
+https://asciinema.org/a/BQlTDal50ZNt6TdX
+Calc:
+https://asciinema.org/a/jDuj5iAViJ2mHMeC
+GCD:
+https://asciinema.org/a/WA9wvLtfEOpofRxE
+Progression:
+https://asciinema.org/a/PHdGONd62RkBDGC6
+Prime:
+https://asciinema.org/a/2U2G3E9ldFK1MEKE
+
+
 
 
 ---
