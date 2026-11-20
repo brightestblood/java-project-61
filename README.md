@@ -21,7 +21,8 @@ make run-dist
 
 ## Использование
 
-https://asciinema.org/a/0mvJNpMF0xKRcjw6
+https://asciinema.org/a/Qhh6cRcUvIw082Hs
+
 
 ---
 
