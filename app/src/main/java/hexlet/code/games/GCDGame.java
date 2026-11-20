@@ -18,7 +18,6 @@ public class GCDGame implements Game {
         int correctAnswer = GCD(a, b);
         String question = a + " " + b;
         return new Round(question, String.valueOf(correctAnswer));
-
     }
 
     private int GCD(int a, int b) {
