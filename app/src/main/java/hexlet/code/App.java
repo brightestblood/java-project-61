@@ -1,10 +1,6 @@
 package hexlet.code;
 
-import hexlet.code.games.CalcGame;
-import hexlet.code.games.EvenGame;
-import hexlet.code.games.GCDGame;
-import hexlet.code.games.PrimeGame;
-import hexlet.code.games.ProgressionGame;
+import hexlet.code.games.*;
 import java.util.Scanner;
 
 public class App {
@@ -23,21 +19,20 @@ public class App {
 
         int choice = scanner.nextInt();
         scanner.nextLine();
-
         System.out.println();
 
         if (choice == 1) {
             Cli.greetUserName();
         } else if (choice == 2) {
-            Engine.play(new EvenGame());
+            new EvenGame().play();
         } else if (choice == 3) {
-            Engine.play(new CalcGame());
+            new CalcGame().play();
         } else if (choice == 4) {
-            Engine.play(new GCDGame());
+            new GcdGame().play();
         } else if (choice == 5) {
-            Engine.play(new ProgressionGame());
+            new ProgressionGame().play();
         } else if (choice == 6) {
-            Engine.play(new PrimeGame());
+            new PrimeGame().play();
         }
     }
 }

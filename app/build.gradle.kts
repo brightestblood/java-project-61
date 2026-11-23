@@ -11,12 +11,6 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-}
-
-}
-
 application {
     mainClass.set("hexlet.code.App")
 }
