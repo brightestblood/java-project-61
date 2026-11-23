@@ -21,14 +21,13 @@ public class CalcGame implements Game {
         int result;
         switch (operator) {
             case "+":
-                result = a + b;
-                break;
+                return a + b;
             case "-":
-                result = a - b;
-                break;
+                return a - b;
+            case "*":
+                return a * b;
             default:
-                result = a * b;
-                break;
+                throw new RuntimeException("Unknown operator " + operator);
         }
 
         String question = a + " " + operator + " " + b;
